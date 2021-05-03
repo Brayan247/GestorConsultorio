@@ -148,7 +148,7 @@ public class HistorialMedicobd {
         //Sentencia de JDBC para obtener valores de la base de datos.
         ResultSet rs = null;
         List<HistorialMedico> personasEncontradas = new ArrayList<>();
-        String sql = "SELECT * FROM gestorpacientes.historial_medico where codigo_medico like '%" + codigomedico + "%';";
+        String sql = "SELECT * FROM gestorpacientes.historial_medico where codigo_medico = '" + codigomedico + "';";
         try {
             co = new Conexion().ConexionMysql();
             stm = co.createStatement();
@@ -180,7 +180,7 @@ public class HistorialMedicobd {
         //Sentencia de JDBC para obtener valores de la base de datos.
         ResultSet rs = null;
         HistorialMedico c = null;
-        String sql = "SELECT * FROM gestorpacientes.historial_medico where historia_clinica_paciente like '%" + Historiaclinica + "%';";
+        String sql = "SELECT * FROM gestorpacientes.historial_medico where historia_clinica_paciente = '" + Historiaclinica + "';";
         try {
             co = new Conexion().ConexionMysql();
             stm = co.createStatement();

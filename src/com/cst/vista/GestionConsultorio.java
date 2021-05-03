@@ -215,6 +215,8 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
 
         jLabel6.setText("Edad: ");
 
+        txtEdadPaciente.setEditable(false);
+
         jLabel8.setText("Genero: ");
 
         jLabel9.setText("Estado Civil:");
@@ -256,7 +258,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
                         .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(txtEstadoCivilPaciente)
                             .addComponent(txtResidenciaPaciente)
-                            .addComponent(jdtFechaNacimientoPaciente, javax.swing.GroupLayout.DEFAULT_SIZE, 616, Short.MAX_VALUE)
+                            .addComponent(jdtFechaNacimientoPaciente, javax.swing.GroupLayout.DEFAULT_SIZE, 672, Short.MAX_VALUE)
                             .addComponent(txtNombrePaciente)
                             .addComponent(txtApellidoPaciente)
                             .addComponent(cmbGeneroPaciente, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -308,6 +310,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
                 .addContainerGap(13, Short.MAX_VALUE))
         );
 
+        btnLimpiarPaciente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/cst/resourse/img/limpiar.png"))); // NOI18N
         btnLimpiarPaciente.setText("Limpiar");
         btnLimpiarPaciente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -315,6 +318,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
             }
         });
 
+        txtEliminarPaciente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/cst/resourse/img/eliminar.png"))); // NOI18N
         txtEliminarPaciente.setText("Eliminar");
         txtEliminarPaciente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -322,6 +326,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
             }
         });
 
+        txtEditarPaciente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/cst/resourse/img/editar.png"))); // NOI18N
         txtEditarPaciente.setText("Editar");
         txtEditarPaciente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -329,6 +334,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
             }
         });
 
+        btnGuardarPaciente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/cst/resourse/img/guardar.png"))); // NOI18N
         btnGuardarPaciente.setText("Guardar");
         btnGuardarPaciente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -338,6 +344,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
 
         cmbBusquedaPaciente.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Cedula", "Historia Clinica" }));
 
+        btnBuscarPaciente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/cst/resourse/img/buscar.png"))); // NOI18N
         btnBuscarPaciente.setText("Buscar");
         btnBuscarPaciente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -403,7 +410,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 783, Short.MAX_VALUE))
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 839, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -414,7 +421,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 253, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 293, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -494,6 +501,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
                 .addGap(0, 6, Short.MAX_VALUE))
         );
 
+        btnLimpiarMedicos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/cst/resourse/img/limpiar.png"))); // NOI18N
         btnLimpiarMedicos.setText("Limpiar");
         btnLimpiarMedicos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -501,6 +509,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
             }
         });
 
+        btmEliminarMedicos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/cst/resourse/img/eliminar.png"))); // NOI18N
         btmEliminarMedicos.setText("Eliminar");
         btmEliminarMedicos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -508,6 +517,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
             }
         });
 
+        btnEditarPacientes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/cst/resourse/img/editar.png"))); // NOI18N
         btnEditarPacientes.setText("Editar");
         btnEditarPacientes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -515,6 +525,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
             }
         });
 
+        btnGuardarMedicos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/cst/resourse/img/guardar.png"))); // NOI18N
         btnGuardarMedicos.setText("Guardar");
         btnGuardarMedicos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -524,6 +535,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
 
         cmbBusquedaMedicos.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Cedula", "Codigo" }));
 
+        btnBuscarMedicos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/cst/resourse/img/buscar.png"))); // NOI18N
         btnBuscarMedicos.setText("Buscar");
         btnBuscarMedicos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -589,7 +601,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 783, Short.MAX_VALUE))
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 839, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel5Layout.setVerticalGroup(
@@ -600,7 +612,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 323, Short.MAX_VALUE)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 363, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -708,6 +720,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
                     .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
+        txtLimpiarHistorialMedico.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/cst/resourse/img/limpiar.png"))); // NOI18N
         txtLimpiarHistorialMedico.setText("Limpiar");
         txtLimpiarHistorialMedico.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -715,6 +728,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
             }
         });
 
+        btnGuardarHistorialMedico.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/cst/resourse/img/guardar.png"))); // NOI18N
         btnGuardarHistorialMedico.setText("Guardar");
         btnGuardarHistorialMedico.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -724,6 +738,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
 
         cmbBusquedaHistorialMedico.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Historia clinica del Paciente", "Codigo del Medico" }));
 
+        btnBuscarHistorialMedico.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/cst/resourse/img/buscar.png"))); // NOI18N
         btnBuscarHistorialMedico.setText("Buscar");
         btnBuscarHistorialMedico.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -751,7 +766,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
                     .addGroup(jPanel8Layout.createSequentialGroup()
                         .addComponent(cmbBusquedaHistorialMedico, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(txtBusquedaHistorialMedico, javax.swing.GroupLayout.DEFAULT_SIZE, 509, Short.MAX_VALUE)
+                        .addComponent(txtBusquedaHistorialMedico, javax.swing.GroupLayout.DEFAULT_SIZE, 537, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
                         .addComponent(btnBuscarHistorialMedico)))
                 .addContainerGap())
@@ -781,7 +796,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
             .addGroup(jPanel11Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 793, Short.MAX_VALUE)
+                    .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 849, Short.MAX_VALUE)
                     .addGroup(jPanel11Layout.createSequentialGroup()
                         .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -815,6 +830,12 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
         txtHistoriaClinicaExamenesMedicos.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusLost(java.awt.event.FocusEvent evt) {
                 txtHistoriaClinicaExamenesMedicosFocusLost(evt);
+            }
+        });
+
+        txtCodigoMedicoExamenMedico.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                txtCodigoMedicoExamenMedicoFocusLost(evt);
             }
         });
 
@@ -917,12 +938,13 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel28)
                     .addComponent(txtCodigoMedicoExamenMedico, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 19, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 59, Short.MAX_VALUE)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel25, javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jdtFechaExpiracionExamenMedico, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
+        btnLimpiarExamenMedico.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/cst/resourse/img/limpiar.png"))); // NOI18N
         btnLimpiarExamenMedico.setText("Limpiar");
         btnLimpiarExamenMedico.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -930,6 +952,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
             }
         });
 
+        btnGuardarExamenMedico.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/cst/resourse/img/guardar.png"))); // NOI18N
         btnGuardarExamenMedico.setText("Guardar");
         btnGuardarExamenMedico.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -939,6 +962,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
 
         cmbBusquedaExamenMedico.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Tipo", "Historia Clinica", "Codigo del Medico" }));
 
+        btnBuscarExamenMedicp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/cst/resourse/img/buscar.png"))); // NOI18N
         btnBuscarExamenMedicp.setText("Buscar");
         btnBuscarExamenMedicp.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -966,7 +990,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
                     .addGroup(jPanel9Layout.createSequentialGroup()
                         .addComponent(cmbBusquedaExamenMedico, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(txtBusquedaExamenMedico, javax.swing.GroupLayout.DEFAULT_SIZE, 551, Short.MAX_VALUE)
+                        .addComponent(txtBusquedaExamenMedico, javax.swing.GroupLayout.DEFAULT_SIZE, 579, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
                         .addComponent(btnBuscarExamenMedicp)))
                 .addContainerGap())
@@ -997,7 +1021,7 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
                 .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jScrollPane8, javax.swing.GroupLayout.DEFAULT_SIZE, 783, Short.MAX_VALUE))
+                    .addComponent(jScrollPane8, javax.swing.GroupLayout.DEFAULT_SIZE, 839, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel12Layout.setVerticalGroup(
@@ -1054,6 +1078,8 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
         if (controladorpacientes.GuardarPacientes(pacienteseditareliminar)) {
             JOptionPane.showMessageDialog(rootPane, "Persona guardado con exito en el sistema");
             LimpiarPacientes();
+            modelTablePacientes.setPacientes(controladorpacientes.ObtenerPacientes());
+            modelTablePacientes.fireTableDataChanged();
         }
     }//GEN-LAST:event_btnGuardarPacienteActionPerformed
 
@@ -1257,6 +1283,8 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
         if (controladorHistorialmedico.GuardarHistorialMedico(historialmedicoeditar)) {
             JOptionPane.showMessageDialog(rootPane, "Historial Medico guardado con exito en el sistema");
             LimpiarPacientes();
+            modelTableHistorialMedico.setHistorial(controladorHistorialmedico.ObtenerHistorialMedico());
+            modelTableHistorialMedico.fireTableDataChanged();
         }
     }//GEN-LAST:event_btnGuardarHistorialMedicoActionPerformed
 
@@ -1308,14 +1336,18 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
     private void txtHistorialClinicoPacienteHistorialMedicoFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtHistorialClinicoPacienteHistorialMedicoFocusLost
         Pacientes p = new Pacientes();
         p = controladorpacientes.getPacienteHistoriaClinica(txtHistoriaClinicaExamenesMedicos.getText());
+
         if (p != null) {
             if (verificacionpacienteHistorialMedico() != null) {
                 JOptionPane.showMessageDialog(rootPane, "Ya existe un Historial Medico para este paciente", "ERROR", JOptionPane.ERROR_MESSAGE);
                 txtHistorialClinicoPacienteHistorialMedico.setText("");
                 txtHistorialClinicoPacienteHistorialMedico.requestFocus();
             } else {
+                if (!txtHistoriaClinicaExamenesMedicos.getText().isEmpty()) {
+                    datosPaciente();
+                    txtCodigoMedicoHistorialMedico.requestFocus();
+                }
                 datosPaciente();
-                txtCodigoMedicoHistorialMedico.requestFocus();
             }
         } else {
             JOptionPane.showMessageDialog(rootPane, "No hay un paciente registrado con esa Historia Clinica", "ERROR", JOptionPane.ERROR_MESSAGE);
@@ -1328,8 +1360,10 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
         Medicos m = new Medicos();
         m = controladorMedicos.getMedicoCodigo(txtCodigoMedicoHistorialMedico.getText());
         if (m != null) {
-            datosMedicos();
-            txtPadecimientoHistorialMedico.requestFocus();
+            if (!txtCodigoMedicoHistorialMedico.getText().isEmpty()) {
+                datosMedicos();
+                txtPadecimientoHistorialMedico.requestFocus();
+            }
         } else {
             JOptionPane.showMessageDialog(rootPane, "No hay un medico registrado con ese codigo", "ERROR", JOptionPane.ERROR_MESSAGE);
             txtCodigoMedicoHistorialMedico.setText("");
@@ -1443,7 +1477,9 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
     }//GEN-LAST:event_btnLimpiarExamenMedicoActionPerformed
 
     private void txtHistoriaClinicaExamenesMedicosFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtHistoriaClinicaExamenesMedicosFocusLost
-        datosPacienteExamenMedico();
+        if (!txtHistoriaClinicaExamenesMedicos.getText().isEmpty()) {
+            datosPacienteExamenMedico();
+        }
     }//GEN-LAST:event_txtHistoriaClinicaExamenesMedicosFocusLost
 
     private void btnLimpiarMedicosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLimpiarMedicosActionPerformed
@@ -1591,6 +1627,16 @@ public class GestionConsultorio extends javax.swing.JFrame implements Comunicaci
         AcercaDe pantallaAcercade = new AcercaDe(this, true);
         pantallaAcercade.setVisible(true);
     }//GEN-LAST:event_jMenuAcercaDeMouseClicked
+
+    private void txtCodigoMedicoExamenMedicoFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtCodigoMedicoExamenMedicoFocusLost
+        Medicos m = new Medicos();
+        m = controladorMedicos.getMedicoCodigo(txtCodigoMedicoExamenMedico.getText());
+        if (m == null) {
+            JOptionPane.showMessageDialog(rootPane, "No hay Medico registrado con ese codigo", "ERROR", JOptionPane.ERROR_MESSAGE);
+            txtCodigoMedicoExamenMedico.setText("");
+            txtCodigoMedicoExamenMedico.requestFocus();
+        }
+    }//GEN-LAST:event_txtCodigoMedicoExamenMedicoFocusLost
 
     public void bloqueardatosMedicos() {
         boolean bloquear = false;

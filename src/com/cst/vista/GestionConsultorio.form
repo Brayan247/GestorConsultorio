@@ -106,7 +106,7 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jPanel13" max="32767" attributes="0"/>
                           <Component id="jPanel6" alignment="1" max="32767" attributes="0"/>
-                          <Component id="jScrollPane1" alignment="0" pref="783" max="32767" attributes="0"/>
+                          <Component id="jScrollPane1" alignment="0" pref="839" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -120,7 +120,7 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jScrollPane1" pref="253" max="32767" attributes="0"/>
+                      <Component id="jScrollPane1" pref="293" max="32767" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -167,7 +167,7 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="txtEstadoCivilPaciente" max="32767" attributes="0"/>
                                       <Component id="txtResidenciaPaciente" max="32767" attributes="0"/>
-                                      <Component id="jdtFechaNacimientoPaciente" pref="616" max="32767" attributes="0"/>
+                                      <Component id="jdtFechaNacimientoPaciente" pref="672" max="32767" attributes="0"/>
                                       <Component id="txtNombrePaciente" max="32767" attributes="0"/>
                                       <Component id="txtApellidoPaciente" max="32767" attributes="0"/>
                                       <Component id="cmbGeneroPaciente" alignment="0" max="32767" attributes="0"/>
@@ -285,6 +285,9 @@
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JTextField" name="txtEdadPaciente">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                  </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel8">
                   <Properties>
@@ -376,6 +379,9 @@
               <SubComponents>
                 <Component class="javax.swing.JButton" name="btnLimpiarPaciente">
                   <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/cst/resourse/img/limpiar.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Limpiar"/>
                   </Properties>
                   <Events>
@@ -384,6 +390,9 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="txtEliminarPaciente">
                   <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/cst/resourse/img/eliminar.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Eliminar"/>
                   </Properties>
                   <Events>
@@ -392,6 +401,9 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="txtEditarPaciente">
                   <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/cst/resourse/img/editar.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Editar"/>
                   </Properties>
                   <Events>
@@ -400,6 +412,9 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="btnGuardarPaciente">
                   <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/cst/resourse/img/guardar.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Guardar"/>
                   </Properties>
                   <Events>
@@ -421,6 +436,9 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="btnBuscarPaciente">
                   <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/cst/resourse/img/buscar.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Buscar"/>
                   </Properties>
                   <Events>
@@ -469,7 +487,7 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jPanel2" max="32767" attributes="0"/>
                           <Component id="jPanel7" max="32767" attributes="0"/>
-                          <Component id="jScrollPane2" alignment="0" pref="783" max="32767" attributes="0"/>
+                          <Component id="jScrollPane2" alignment="0" pref="839" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -483,7 +501,7 @@
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jScrollPane2" pref="323" max="32767" attributes="0"/>
+                      <Component id="jScrollPane2" pref="363" max="32767" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -674,6 +692,9 @@
               <SubComponents>
                 <Component class="javax.swing.JButton" name="btnLimpiarMedicos">
                   <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/cst/resourse/img/limpiar.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Limpiar"/>
                   </Properties>
                   <Events>
@@ -682,6 +703,9 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="btmEliminarMedicos">
                   <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/cst/resourse/img/eliminar.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Eliminar"/>
                   </Properties>
                   <Events>
@@ -690,6 +714,9 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="btnEditarPacientes">
                   <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/cst/resourse/img/editar.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Editar"/>
                   </Properties>
                   <Events>
@@ -698,6 +725,9 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="btnGuardarMedicos">
                   <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/cst/resourse/img/guardar.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Guardar"/>
                   </Properties>
                   <Events>
@@ -719,6 +749,9 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="btnBuscarMedicos">
                   <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/cst/resourse/img/buscar.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Buscar"/>
                   </Properties>
                   <Events>
@@ -765,7 +798,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jScrollPane5" pref="793" max="32767" attributes="0"/>
+                          <Component id="jScrollPane5" pref="849" max="32767" attributes="0"/>
                           <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jPanel3" max="32767" attributes="0"/>
@@ -986,7 +1019,7 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="cmbBusquedaHistorialMedico" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="txtBusquedaHistorialMedico" pref="509" max="32767" attributes="0"/>
+                                  <Component id="txtBusquedaHistorialMedico" pref="537" max="32767" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="btnBuscarHistorialMedico" min="-2" max="-2" attributes="0"/>
                               </Group>
@@ -1017,6 +1050,9 @@
               <SubComponents>
                 <Component class="javax.swing.JButton" name="txtLimpiarHistorialMedico">
                   <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/cst/resourse/img/limpiar.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Limpiar"/>
                   </Properties>
                   <Events>
@@ -1025,6 +1061,9 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="btnGuardarHistorialMedico">
                   <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/cst/resourse/img/guardar.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Guardar"/>
                   </Properties>
                   <Events>
@@ -1046,6 +1085,9 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="btnBuscarHistorialMedico">
                   <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/cst/resourse/img/buscar.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Buscar"/>
                   </Properties>
                   <Events>
@@ -1094,7 +1136,7 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jPanel4" alignment="1" max="32767" attributes="0"/>
                           <Component id="jPanel9" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jScrollPane8" alignment="0" pref="783" max="32767" attributes="0"/>
+                          <Component id="jScrollPane8" alignment="0" pref="839" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -1215,7 +1257,7 @@
                               <Component id="jLabel28" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="txtCodigoMedicoExamenMedico" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="19" max="32767" attributes="0"/>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jLabel25" alignment="1" min="-2" max="-2" attributes="0"/>
                               <Component id="jdtFechaExpiracionExamenMedico" alignment="1" min="-2" max="-2" attributes="0"/>
@@ -1258,6 +1300,9 @@
                   </Events>
                 </Component>
                 <Component class="javax.swing.JTextField" name="txtCodigoMedicoExamenMedico">
+                  <Events>
+                    <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtCodigoMedicoExamenMedicoFocusLost"/>
+                  </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel28">
                   <Properties>
@@ -1341,7 +1386,7 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="cmbBusquedaExamenMedico" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="txtBusquedaExamenMedico" pref="551" max="32767" attributes="0"/>
+                                  <Component id="txtBusquedaExamenMedico" pref="579" max="32767" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="btnBuscarExamenMedicp" min="-2" max="-2" attributes="0"/>
                               </Group>
@@ -1371,6 +1416,9 @@
               <SubComponents>
                 <Component class="javax.swing.JButton" name="btnLimpiarExamenMedico">
                   <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/cst/resourse/img/limpiar.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Limpiar"/>
                   </Properties>
                   <Events>
@@ -1379,6 +1427,9 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="btnGuardarExamenMedico">
                   <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/cst/resourse/img/guardar.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Guardar"/>
                   </Properties>
                   <Events>
@@ -1401,6 +1452,9 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="btnBuscarExamenMedicp">
                   <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/com/cst/resourse/img/buscar.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Buscar"/>
                   </Properties>
                   <Events>

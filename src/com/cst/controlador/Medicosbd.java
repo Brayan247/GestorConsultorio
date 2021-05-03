@@ -61,8 +61,11 @@ public class Medicosbd {
         Statement stm = null;
         Connection con = null;
         String sql = "UPDATE `gestorpacientes`.`medicos` SET "
+                + "`nombre` = '" + me.getNombre()+ "',"
+                + "`apellido` = '" + me.getApellido()+ "',"
                 + "`direccion` = '" + me.getDireccion() + "',"
-                + " `años_contrato` = '" + me.getAnios_contrato() + "'"
+                + "`años_contrato` = '" + me.getAnios_contrato() + "',"
+                + "`especialidad` = '" + me.getEspecialidad()+ "'"
                 + " WHERE (`idmedicos` = '" + String.valueOf(me.getIdmedico()) + "');";
         try {
             Conexion conexion = new Conexion();
